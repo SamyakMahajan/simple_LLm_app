@@ -14,7 +14,7 @@ export default function Home() {
   // Function to send the input text to the API and get the response using Axios
   const handleSubmit = async () => {
     // Define the API endpoint and parameters
-    const apiUrl = 'https://hekko123.azurewebsites.net/api/http_trigger12';
+    const apiUrl = ENDPOINT;
     const params = {
       code: 'NbklnD4Ct0wrBbMvLHnIh7kjienZD6elihDuPjUK6gNHAzFuZBKq9w==',
       name: inputText
